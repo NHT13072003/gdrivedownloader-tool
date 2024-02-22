@@ -41,7 +41,7 @@ def main():
     print (colored('===================================================================================================', 'white'))
     print (colored('                                         Version: ', 'yellow'), (1.0))
     print (colored('                                         Author : ', 'yellow'), ('Blavk'))
-    print (colored('                                         Github : ', 'yellow'), ('https://github.com/duytran1406/gdrivedownloader'))
+    print (colored('                                         Github : ', 'yellow'), ('https://github.com/NHT13072003/utility-tools/'))
     store = file.Storage('token.json')
     creds = store.get()
     if not creds or creds.invalid:
